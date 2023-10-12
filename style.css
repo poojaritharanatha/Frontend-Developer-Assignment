@@ -1,0 +1,126 @@
+body {
+  background: #2f1893;
+  font-family: sans-serif;
+}
+.Header {
+  position: fixed;
+  margin-top: 65px;
+  right: 0%;
+  width: 44%;
+}
+.Header a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.Text {
+  color: #fff;
+  width: 35%;
+  position: absolute;
+  top: 23%;
+  left: 10%;
+}
+.Head {
+  font-size: 60px;
+}
+.learn {
+  border-radius: 50px;
+  border-color: #ebeaed;
+  padding: 17px;
+  margin: 10px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: #e93a7d;
+  color: white;
+}
+.Purchase {
+  border-radius: 50px;
+  padding: 5px;
+  width: 15%;
+  background-color: #e93a7d;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.sign-up {
+  width: 300px;
+  padding: 20px 100px;
+  margin: 23% auto;
+  background-color: #fff;
+  text-align: center;
+  position: absolute;
+  left: 137%;
+  top: -25%;
+}
+.sign-up h1 {
+  color: #1e0e62;
+}
+label {
+  color: #15143966;
+}
+.SignIn-text {
+  color: #15143966;
+}
+.or {
+  position: relative;
+  color: #ebeaed;
+}
+.or::before {
+  content: "";
+  height: 1px;
+  width: 40%;
+  background-color: #ebeaed;
+  display: block;
+  position: absolute;
+  top: 50%;
+}
+.or::after {
+  content: "";
+  height: 1px;
+  width: 40%;
+  background-color: #ebeaed;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.input-box {
+  border-radius: 50px;
+  border-color: #ebeaed;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  border: 1px solid #ebeaed;
+  outline: none;
+}
+.signUp-button {
+  border-radius: 50px;
+  border-color: #ebeaed;
+  padding: 17px;
+  margin: 10px;
+  width: 100%;
+  border: 1px solid #ebeaed;
+  outline: none;
+  background-color: #482be7;
+  color: white;
+}
+.signUp-twitter {
+  border-radius: 50px;
+  border-color: #ebeaed;
+  padding: 17px;
+  margin: 10px;
+  width: 100%;
+  border: 1px solid #ebeaed;
+  outline: none;
+  background-color: #1da1f2;
+  color: white;
+}
+#check:checked {
+  accent-color: #25dac5;
+}
+.link {
+  color: #25dac5;
+}
